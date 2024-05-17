@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="res/style.css">
+		<title>Howdy, I'm BitHoof</title>
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<script src="res/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<section class="person">
+				<p class="name">BitHoof the dev</p>
+				<p class="mail"><a href="mailto:BitHoof@neighmail.com">BitHoof@neighmail.com</a></p>
+				<p class="phone">+49 241 444-6631</p>
+			</section>
+			<nav>
+				<a href="#aboutme">About Me</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="#recommendations">Recommendations</a>
+			</nav>
+		</header>
+		<article>
+			<section id="aboutme">
+				<div class="photo">
+					<img src="images/profile.jpg" />
+				</div>
+				<div class="text">
+					<h1>Howdy, I'm BitHoof, the Code Wrangler! 🐴</h1>
+					<p>Gallop into the digital frontier with me, where I turn coffee into code faster than a mustang in a meadow. Debugging is my rodeo, and I'm always up for a good ol' barn-raising brainstorm session. Let's saddle up and ride into the tech sunset together!</p>
+					<p>Here, algorithms roam free, and data structures are as organized as a barn after spring cleaning. I believe in clean code and clear documentation, just like I believe in clear trails and open pastures. Join me on this wild ride through the tech frontier!</p>
+				</div>
+			</section>
+			<section id="skills">
+				<h2>Skills</h2>
+				<section class="skill">
+					<img src="images/skills_htmlc.png" />
+					<h5>NeighJS</h5>
+					<p>2 years experience</p>
+				</section>
+				<section class="skill">
+					<img src="images/skills_felinejava.png" />
+					<h5>Ponython</h5>
+					<p>1,5 years experience</p>
+				</section>
+				<section class="skill">
+					<img src="images/skills_catscript.png" />
+					<h5>Gallop++</h5>
+					<p>10 years experience</p>
+				</section>
+				<section class="skill">
+					<img src="images/skills_recat.png" />
+					<h5>StallionScript</h5>
+					<p>1 year experience</p>
+				</section>
+				<section class="skill">
+					<img src="images/skills_catss.png" />
+					<h5>EquiSQL</h5>
+					<p>2 years experience</p>
+				</section>
+				<section class="skill">
+					<img src="images/skills_node.png" />
+					<h5>TrotScript</h5>
+					<p>1 year experience</p>
+				</section>
+				<section class="skill">
+					<img src="images/skills_purrthon.png" />
+					<h5>FoalLang</h5>
+					<p>3 years experience</p>
+				</section>
+			</section>
+			<section id="projects">
+				<h2>Projects</h2>
+				<section class="project">
+					<h3>PastureOS</h3>
+					<li>Revolutionary grass-roots operating system designed to streamline the grazing experience. With its intuitive interface, PastureOS helps farmers optimize their fields for maximum hay yield and ensures every clover patch is utilized efficiently.</li>
+					<hr />
+				</section>
+				<section class="project">
+					<h3>NeighNavigator</h3>
+					<li>This innovative GPS app is tailored for equestrians, providing real-time trail mapping and weather updates. NeighNavigator ensures that both rider and steed can embark on adventures with confidence, knowing they have the best routes at their hoof-tips.</li>
+					<hr />
+				</section>
+				<section class="project">
+					<h3>HoofHub</h3>
+					<li>A collaborative version control platform where equine enthusiasts and developers can gallop together on coding projects. HoofHub offers a stable environment for managing code sprints, with features that keep your projects trotting along smoothly.</li>
+					<hr />
+				</section>
+				<section class="project">
+					<h3>BitStable</h3>
+					<li>Comprehensive project management tool that organizes tasks with military precision, like a well-drilled cavalry. BitStable is the go-to solution for keeping development teams on track, ensuring deadlines are met with the discipline of a dressage champion.</li>
+					<hr />
+				</section>
+				<section class="project">
+					<h3>Equine Engine</h3>
+					<li>A robust game development framework that's renowned for its raw horsepower and agility. Equine Engine empowers developers to create immersive gaming experiences, whether they're racing simulators or fantasy adventures in mythical pastures.</li>
+					<hr />
+				</section>
+			</section>
+			<section id="recommendations">
+				<h2>Recommendations</h2>
+				<div class="list" id ="reclist">
+					<section>
+						BitHoof is the kind of developer who doesn't horse around when it comes to coding. His commitment to quality is stable and strong!
+					</section>
+					<section>
+						When it comes to debugging, BitHoof always jumps the highest hurdles with ease. A true thoroughbred in the tech race!
+					</section>
+					<section>
+						With BitHoof on your team, you can bet your bottom dollar on top-notch code. He's a surefire win in the development derby!
+					</section>
+					<section>
+						BitHoof has the rare ability to gallop through complex algorithms and make them look like a leisurely trot in the park.
+					</section>
+					<section>
+						Need a developer who can take the reins on a project? Look no further than BitHoof, the mane man in software development!
+					</section>
+					<section>
+						BitHoof is not just a one-trick pony; he's a full-stack developer who brings a stable of skills to every project.
+					</section>
+				</div>
+				<div class="form">
+					<h3>Leave a Recommendation</h3>
+					<form>
+						<p>
+							<input type="text" name="name" placeholder="Name (Optional)">
+						</p>
+						<p>
+							<textarea id="message" name="message" placeholder="Message" style="background-image: url('images/background_cat.png');
+				    background-position: right bottom; background-repeat: no-repeat;"></textarea>
+						</p>
+						<div class="submit" onclick="addRecommendation();">🐎 Submit</div>
+					</form>
+				</div>
+			</section>
+		</article>
+		
+		<div class="popup" id="popup" class="flex_center">
+			<h1>🤠</h1>
+			<h3>A Hearty Hoofshake of Thanks!</h3>
+			<p>I'm trotting over with gratitude to express my sincere thanks for your kind words. Your recommendation has added an extra spring to my gallop and brightened my day on the coding trails!</p>
+			<button onclick="showPopup(false)">Ok</button>
+		</div>
+		<div class="iconbutton" onclick="window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })">
+			<img src="images/arrowup.png" />
+		</div>
+	</body>
+</html>
