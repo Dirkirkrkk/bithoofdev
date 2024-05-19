@@ -1,3 +1,5 @@
+alert("Welcome to Code Whiskers!");
+
 function addRecommendation() {
 	// Get text from textarea
 	let recommendation = document.getElementById("message");
